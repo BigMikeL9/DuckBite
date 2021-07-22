@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Fire
+  - Slime Left Boundary
+  - Slime Right Boundary
   layers:
   - Default
   - TransparentFX
@@ -11,14 +14,14 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Ladder
+  - Player
+  - Background
+  - Slime
+  - Hazards
+  - Interactables
+  - Background -2
   - 
   - 
   - 
@@ -41,11 +44,29 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background - -1
+    uniqueID: 3988957761
+    locked: 0
   - name: Background
     uniqueID: 2017550969
     locked: 0
+  - name: Background - 2
+    uniqueID: 3705801359
+    locked: 0
+  - name: Interactables
+    uniqueID: 3147597037
+    locked: 0
+  - name: Ladder
+    uniqueID: 1605073021
+    locked: 0
+  - name: Slime
+    uniqueID: 3431105887
+    locked: 0
   - name: Player
     uniqueID: 1694296355
+    locked: 0
+  - name: Hazards
+    uniqueID: 3618358931
     locked: 0
   - name: Foreground
     uniqueID: 27547293
